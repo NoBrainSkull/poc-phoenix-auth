@@ -1,0 +1,9 @@
+# This is the mail template. All email sent by Nutshell Login will be standardized with it.
+<html>
+  <head>
+    <title><%= @email.subject %></title>
+  </head>
+  <body>
+    <%= @inner_content %>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+<div>
+  <h1>Hi <%= @user.email %>,</h1>
+  <div>You can reset your password by visiting the URL below:</div>
+  <div><a href="<%= @url %>"><%= @url %></a></div>
+  <div>If you didn't create an account with us, please ignore this.</div>
+</div>
